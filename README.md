@@ -1,4 +1,4 @@
-# nrobinson2000/dotfiles
+# nrobinson2000/dotfiles [WIP]
 ![](screenshots/1.png)
 
 _Settings and tweaks for my Arch Linux distribution._
@@ -16,8 +16,26 @@ Terminal: gnome-terminal
 
 ## Installation
 
+Install native packages:
 ```
-$ sudo install -D tweaks/etc /etc
-$ sudo install -D tweaks/usr /usr
-$ install -D skel "$HOME"
+$ sudo pacman -S - < native-packages
+```
+
+Install `yay`:
+```
+$ git clone https://aur.archlinux.org/yay.git
+$ cd yay
+$ makepkg -si
+```
+
+Install AUR packages:
+```
+$ yay -S - < aur-packages
+```
+
+Apply customizations:
+```
+$ sudo cp -ri tweaks/etc/* /etc
+$ sudo cp -ri tweaks/usr/* /usr
+$ cp -ri skel/* "$HOME"
 ```
