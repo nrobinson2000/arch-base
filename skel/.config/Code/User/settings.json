@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "C_Cpp.updateChannel": "Insiders",
+    "particle.disableLocalCompilerDirtyCheck": true,
+    "particle.disableWelcomeScreen": true,
+    "window.titleBarStyle": "custom"
+}
