@@ -33,9 +33,6 @@ function update()
   git push -u origin $(git rev-parse --abbrev-ref HEAD)
 }
 
-export QT_QPA_PLATFORMTHEME="qt5ct"
-
-
 pwd_clip() {
 pwd | xclip -selection "clipboard"
 }

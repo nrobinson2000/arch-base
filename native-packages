@@ -25,6 +25,7 @@ gettext
 git
 gnome-disk-utility
 gnome-screenshot
+gnome-system-monitor
 gnome-terminal
 gqrx
 grep
@@ -51,6 +52,7 @@ nemo-preview
 nemo-python
 nemo-share
 neofetch
+nmap
 nvidia
 nvidia-settings
 os-prober

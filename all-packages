@@ -16,6 +16,7 @@ argon2
 at-spi2-atk
 at-spi2-core
 atk
+atkmm
 attr
 audit
 autoconf
@@ -41,6 +42,7 @@ ca-certificates
 ca-certificates-mozilla
 ca-certificates-utils
 cairo
+cairomm
 cantarell-fonts
 caribou
 cblas
@@ -126,12 +128,14 @@ glib-networking
 glib2
 glib2-docs
 glibc
+glibmm
 glslang
 gmp
 gnome-backgrounds
 gnome-disk-utility
 gnome-menus
 gnome-screenshot
+gnome-system-monitor
 gnome-terminal
 gnome-themes-extra
 gnupg
@@ -163,6 +167,7 @@ gtk2
 gtk3
 gtkhash
 gtkhash-nemo
+gtkmm3
 gtksourceview3
 gts
 guile
@@ -370,6 +375,7 @@ libsamplerate
 libsasl
 libseccomp
 libsecret
+libsigc++
 libsm
 libsndfile
 libsodium
@@ -449,6 +455,7 @@ log4cpp
 lsb-release
 lsof
 lua52
+lua53
 lvm2
 lz4
 lzo
@@ -484,6 +491,7 @@ nettle
 network-manager-applet
 networkmanager
 nm-connection-editor
+nmap
 npth
 nspr
 nss
@@ -505,6 +513,7 @@ pacman-mirrorlist
 pam
 pambase
 pango
+pangomm
 papirus-icon-theme
 parcellite
 parted
