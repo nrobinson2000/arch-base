@@ -17,24 +17,28 @@ Terminal: gnome-terminal
 ## Installation
 
 Install native packages:
-```
+
+```bash
 $ sudo pacman -S - < native-packages
 ```
 
 Install `yay`:
-```
+
+```bash
 $ git clone https://aur.archlinux.org/yay.git
 $ cd yay
 $ makepkg -si
 ```
 
 Install AUR packages:
-```
+
+```bash
 $ yay -S - < aur-packages
 ```
 
 Apply customizations:
-```
+
+```bash
 $ sudo cp -ri overlay/* /
 $ cp -ri `find skel -maxdepth 1 | tail +2` "$HOME"
 ```
