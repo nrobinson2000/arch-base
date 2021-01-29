@@ -34,3 +34,8 @@ function update()
 }
 
 export QT_QPA_PLATFORMTHEME="qt5ct"
+
+
+pwd_clip() {
+pwd | xclip -selection "clipboard"
+}

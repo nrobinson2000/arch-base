@@ -1,7 +1,7 @@
 # nrobinson2000/dotfiles [WIP]
 ![](screenshots/1.png)
 
-_Settings and tweaks for my Arch Linux distribution._
+_Settings and configuration for my Arch Linux distribution._
 
 ## Overview
 
@@ -35,7 +35,6 @@ $ yay -S - < aur-packages
 
 Apply customizations:
 ```
-$ sudo cp -ri tweaks/etc/* /etc
-$ sudo cp -ri tweaks/usr/* /usr
-$ cp -ri skel/* "$HOME"
+$ sudo cp -ri overlay/* /
+$ cp -ri `find skel -maxdepth 1 | tail +2` "$HOME"
 ```

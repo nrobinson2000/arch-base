@@ -1,5 +1,7 @@
 [Default Applications]
 image/png=viewnior.desktop
+text/html=GitKraken.desktop
+x-scheme-handler/gitkraken=GitKraken.desktop
 
 [Added Associations]
 image/png=viewnior.desktop;
