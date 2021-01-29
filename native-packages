@@ -24,6 +24,7 @@ gcc
 gettext
 git
 gnome-disk-utility
+gnome-keyring
 gnome-screenshot
 gnome-system-monitor
 gnome-terminal
