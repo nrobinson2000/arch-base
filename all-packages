@@ -13,6 +13,7 @@ alsa-utils
 aom
 archlinux-keyring
 argon2
+arp-scan
 at-spi2-atk
 at-spi2-core
 atk
@@ -109,6 +110,7 @@ freetype2
 fribidi
 fuse-common
 fuse3
+gamemode
 gawk
 gc
 gcc
@@ -454,6 +456,8 @@ lzo
 m4
 make
 man-db
+mangohud
+mangohud-common
 md4c
 mdadm
 mesa

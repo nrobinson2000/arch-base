@@ -1,6 +1,7 @@
 adapta-gtk-theme
 albert
 alsa-utils
+arp-scan
 autoconf
 automake
 baobab
@@ -19,6 +20,7 @@ fakeroot
 file
 findutils
 flex
+gamemode
 gawk
 gcc
 gettext

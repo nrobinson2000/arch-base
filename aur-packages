@@ -4,6 +4,7 @@ kvantum-theme-adapta
 lib32-ncurses5-compat-libs
 lightdm-settings
 lightdm-slick-greeter
+mangohud
 ncurses5-compat-libs
 neopo-git
 qt5-styleplugins
