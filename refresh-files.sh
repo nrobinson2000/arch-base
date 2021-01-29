@@ -23,9 +23,9 @@ cp .config/mimeapps.list "$CONFIG"
 popd > /dev/null
 
 # packages
-pacman -Qenq > native-packages
-pacman -Qemq > aur-packages
-pacman -Qq > all-packages
+pacman -Qenq > packages/native-packages
+pacman -Qemq > packages/aur-packages
+pacman -Qq > packages/all-packages
 
 # dconf
 dconf dump / > dconf/all.conf
