@@ -7,6 +7,9 @@ CONFIG="$SKEL/.config"
 # Dotfiles
 cp .bash_aliases .bash_profile .bashrc .profile .vimrc "$SKEL"
 
+# cinnamon configs
+cp -r .cinnamon/configs "$SKEL/.cinnamon"
+
 # .config files
 cp .config/albert/albert.conf "$CONFIG/albert/albert.conf"
 cp .config/Code/User/settings.json "$CONFIG/Code/User/settings.json"

@@ -25,8 +25,8 @@ $ sudo pacman -S - < packages/native
 Install `yay`:
 
 ```bash
-$ git clone https://aur.archlinux.org/yay.git
-$ cd yay
+$ git clone https://aur.archlinux.org/yay-bin.git
+$ cd yay-bin
 $ makepkg -si
 ```
 
@@ -46,5 +46,11 @@ $ cp -ri `find skel -maxdepth 1 | tail +2` "$HOME"
 Enable services:
 
 ```bash
-$ cat systemd/services | xargs sudo systemd enable
+$ cat systemd/services | xargs sudo systemctl enable
+```
+
+Load dconf settings:
+
+```bash
+$ dconf load / < dconf/all.conf
 ```
