@@ -19,7 +19,7 @@ Terminal: gnome-terminal
 Install native packages:
 
 ```bash
-$ sudo pacman -S - < native-packages
+$ sudo pacman -S - < packages/native
 ```
 
 Install `yay`:
@@ -33,7 +33,7 @@ $ makepkg -si
 Install AUR packages:
 
 ```bash
-$ yay -S - < aur-packages
+$ yay -S - < packages/aur
 ```
 
 Apply customizations:
@@ -41,4 +41,10 @@ Apply customizations:
 ```bash
 $ sudo cp -ri overlay/* /
 $ cp -ri `find skel -maxdepth 1 | tail +2` "$HOME"
+```
+
+Enable services:
+
+```bash
+$ cat systemd/services | xargs sudo systemd enable
 ```
