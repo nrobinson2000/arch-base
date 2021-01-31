@@ -1,4 +1,4 @@
-export PS1="\[$(tput setaf 6)\]\[$(tput bold)\]\t \[$(tput setaf 4)\]\[$(tput bold)\]\w \\$ \[$(tput sgr0)\]"
+export PS1="\n\[$(tput setaf 6)\]\[$(tput bold)\]\t \[$(tput setaf 8)\]\h\n\[$(tput setaf 4)\]\[$(tput bold)\]\w \\$ \[$(tput sgr0)\]"
 
 export GPG_TTY=$(tty)
 
@@ -33,6 +33,12 @@ function update()
   git push -u origin $(git rev-parse --abbrev-ref HEAD)
 }
 
+# xclip
 pwd_clip() {
-pwd | xclip -selection "clipboard"
+  pwd | xclip -selection "clipboard"
 }
+
+clip() {
+  $@ | xclip -selection "clipboard"
+}
+
