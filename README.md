@@ -44,21 +44,21 @@ ___
 ## Description of contents
 
 ### Packages
-- **custom-packages** - A collection of PKGBUILD files for packages temporarily unavailable in official repositories or the AUR.
-- **packages** - Lists of packages installed on the system. The `native` and `aur` files list explicitly installed packages.
+- `custom-packages` - A collection of PKGBUILD files for packages temporarily unavailable in official repositories or the AUR.
+- `packages` - Lists of packages installed on the system. The `native` and `aur` files list explicitly installed packages.
 
 ### Scripts
 
-- **install.sh** - Install the packages, settings, and customizations outlined in this repository.
-- **refresh-files.sh** - Regenerate settings and customizations based on files currently in use by the system.
+- `install.sh` - Install the packages, settings, and customizations outlined in this repository.
+- `refresh-files.sh` - Regenerate settings and customizations based on files currently in use by the system.
 
 ### Settings
 
-- **overlay** - Customizations applied relative to the file-system root.
-- **skel** - Settings applied relative to the current user's home directory.
-- **dconf** - Settings applied to the current user's dconf database.
+- `overlay` - Customizations applied relative to the file-system root.
+- `skel` - Settings applied relative to the current user's home directory.
+- `dconf` - Settings applied to the current user's dconf database.
 
 ### Other
-- **screenshots** - Various screenshots of the desktop environment.
-- **steam** - Some useful settings for Valve's Steam.
-- **systemd** - Miscellaneous settings for systemd.
+- `screenshots` - Various screenshots of the desktop environment.
+- `steam` - Some useful settings for Valve's Steam.
+- `systemd` - Miscellaneous settings for systemd.
