@@ -3,5 +3,6 @@
     "C_Cpp.updateChannel": "Insiders",
     "particle.disableLocalCompilerDirtyCheck": true,
     "particle.disableWelcomeScreen": true,
-    "window.titleBarStyle": "custom"
+    "window.titleBarStyle": "custom",
+    "spellright.language": ["en_US"]
 }

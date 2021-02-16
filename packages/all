@@ -4,7 +4,7 @@ adapta-gtk-theme
 adobe-source-code-pro-fonts
 adwaita-icon-theme
 airspy
-albert
+albert-lite
 alsa-lib
 alsa-plugins
 alsa-topology-conf
@@ -23,12 +23,14 @@ audit
 autoconf
 automake
 avahi
+babl
 bamf
 baobab
 base
 bash
 bash-completion
 bc
+bind
 binutils
 bison
 bladerf
@@ -61,6 +63,7 @@ cjs
 clutter
 clutter-gst
 clutter-gtk
+cmake
 codec2
 cogl
 colord
@@ -102,6 +105,7 @@ file
 file-roller
 filesystem
 findutils
+firefox
 flac
 flex
 fmt
@@ -119,9 +123,11 @@ gcr
 gd
 gdbm
 gdk-pixbuf2
+gegl
 gettext
 ghostscript
 giflib
+gimp
 git
 gitkraken
 glib-networking
@@ -154,6 +160,7 @@ grep
 groff
 grub
 gsettings-desktop-schemas
+gsfonts
 gsl
 gsm
 gst-plugins-base-libs
@@ -175,6 +182,7 @@ harfbuzz-icu
 hicolor-icon-theme
 hidapi
 htop
+hunspell-en_US
 hwids
 hwloc
 hyphen
@@ -191,10 +199,12 @@ iputils
 iso-codes
 jack
 jansson
+jasper
 jbig2dec
 js78
 json-c
 json-glib
+jsoncpp
 kbd
 keyutils
 kmod
@@ -208,6 +218,7 @@ lapack
 lcms2
 ldb
 ldns
+lensfun
 less
 lib32-alsa-lib
 lib32-alsa-plugins
@@ -292,6 +303,7 @@ libdaemon
 libdatrie
 libdbusmenu-glib
 libdbusmenu-gtk3
+libde265
 libdrm
 libdvdnav
 libdvdread
@@ -305,6 +317,7 @@ libffi
 libfontenc
 libgcrypt
 libgee
+libgexiv2
 libglvnd
 libgnomekbd
 libgpg-error
@@ -312,6 +325,7 @@ libgtop
 libgudev
 libgusb
 libhandy
+libheif
 libibus
 libice
 libid3tag
@@ -329,13 +343,16 @@ libksba
 libldap
 liblouis
 liblqr
+libmaxminddb
 libmfx
 libmicrohttpd
 libmm-glib
+libmng
 libmnl
 libmodplug
 libmpc
 libmusicbrainz5
+libmypaint
 libndp
 libnetfilter_conntrack
 libnewt
@@ -363,6 +380,7 @@ libpsl
 libpulse
 libpwquality
 libraqm
+libraw
 libraw1394
 librsvg
 libsamplerate
@@ -375,6 +393,7 @@ libsndfile
 libsodium
 libsoup
 libsoxr
+libspiro
 libssh
 libssh2
 libstemmer
@@ -392,6 +411,7 @@ liburing
 libusb
 libusbmuxd
 libutempter
+libuv
 libva
 libvdpau
 libvolk
@@ -399,6 +419,7 @@ libvorbis
 libvpx
 libwacom
 libwebp
+libwmf
 libwnck3
 libwpe
 libx11
@@ -435,10 +456,12 @@ libxtst
 libxv
 libxxf86vm
 libyaml
+libzip
 licenses
 lightdm
 lightdm-settings
 lightdm-slick-greeter
+lighttpd
 linux
 linux-api-headers
 linux-firmware
@@ -446,14 +469,17 @@ llvm-libs
 lm_sensors
 lmdb
 log4cpp
+logrotate
 lsb-release
 lsof
 lua52
 lua53
+luajit
 lvm2
 lz4
 lzo
 m4
+mailcap
 make
 man-db
 mangohud
@@ -461,6 +487,7 @@ mangohud-common
 md4c
 mdadm
 mesa
+metis
 minizip
 mkinitcpio
 mkinitcpio-busybox
@@ -471,6 +498,7 @@ mtdev
 muffin
 mujs
 muparser
+mypaint-brushes1
 ncurses
 ncurses5-compat-libs
 ndctl
@@ -482,6 +510,7 @@ nemo-share
 neofetch
 neon
 neopo-git
+net-tools
 netpbm
 nettle
 network-manager-applet
@@ -495,7 +524,9 @@ nvidia
 nvidia-settings
 nvidia-utils
 oath-toolkit
+oniguruma
 opencore-amr
+openexr
 openjpeg2
 openmpi
 openssh
@@ -540,6 +571,11 @@ perl-timedate
 perl-try-tiny
 perl-uri
 perl-www-robotrules
+php
+php-cgi
+php-sqlite
+pi-hole-ftl
+pi-hole-server
 pinentry
 pixman
 pkgconf
@@ -547,6 +583,7 @@ plank
 polkit
 polkit-gnome
 poppler
+poppler-data
 poppler-glib
 popt
 portaudio
@@ -574,6 +611,7 @@ python-packaging
 python-pam
 python-pexpect
 python-pillow
+python-ply
 python-psutil
 python-ptyprocess
 python-pycups
@@ -603,11 +641,16 @@ qt5ct
 rav1e
 re2
 readline
+reflector
 rest
+rhash
+rsync
 rtkit
 rtl-sdr
 rubberband
 run-parts
+rust
+rust-docs
 samba
 screen
 sdl2
@@ -628,6 +671,7 @@ srt
 startup-notification
 steam
 sudo
+suitesparse
 sysfsutils
 system-config-printer
 systemd
@@ -635,6 +679,7 @@ systemd-libs
 systemd-sysvcompat
 talloc
 tar
+tbb
 tdb
 tevent
 texinfo
@@ -642,6 +687,7 @@ thin-provisioning-tools
 timezonemap
 tmux
 tracker3
+tree
 tslib
 ttf-liberation
 tzdata
@@ -701,6 +747,7 @@ xorg-xset
 xorgproto
 xreader
 xvidcore
+xxhash
 xz
 yay-bin
 youtube-dl

@@ -1,3 +1,4 @@
+albert-lite
 gitkraken
 gtkhash-nemo
 kvantum-theme-adapta
@@ -7,6 +8,7 @@ lightdm-slick-greeter
 mangohud
 ncurses5-compat-libs
 neopo-git
+pi-hole-server
 qt5-styleplugins
 visual-studio-code-bin
 yay-bin

@@ -1,4 +1,4 @@
-export PS1="\[$(tput setaf 6)\]\[$(tput bold)\]\t \[$(tput setaf 8)\]\h \[$(tput setaf 4)\]\[$(tput bold)\]\w \\$ \[$(tput sgr0)\]"
+export PS1="\[$(tput setaf 6)\]\[$(tput bold)\]\t \[$(tput setaf 2)\]\h \[$(tput setaf 4)\]\[$(tput bold)\]\w \\$ \[$(tput sgr0)\]"
 
 export GPG_TTY=$(tty)
 

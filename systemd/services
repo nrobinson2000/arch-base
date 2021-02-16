@@ -2,4 +2,3 @@ cups.service
 lightdm.service
 NetworkManager.service
 sshd.service
-systemd-resolved.service
