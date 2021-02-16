@@ -41,4 +41,3 @@ pwd_clip() {
 clip() {
   $@ | xclip -selection "clipboard"
 }
-
