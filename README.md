@@ -1,4 +1,4 @@
-# nrobinson2000/dotfiles [WIP]
+# arch-base
 ![](screenshots/1.png)
 
 **Settings and configuration for my Arch Linux distribution.**
@@ -27,8 +27,8 @@ ___
 
 ```bash
 $ sudo pacman -S git
-$ git clone https://github.com/nrobinson2000/dotfiles
-$ cd dotfiles
+$ git clone https://github.com/nrobinson2000/arch-base
+$ cd arch-base
 ```
 
 Before running `install.sh`, read though the script and verify that you are content with the changes that it will make. To accept the script, uncomment the `DOTFILES_AGREE="true"` line in `install.sh`.

@@ -1,9 +1,9 @@
 #!/bin/bash
-# nrobinson2000/dotfiles [WIP]
+# nrobinson2000/arch-base [WIP]
 
 # To install as a non-root user:
-# git clone https://github.com/nrobinson2000/dotfiles
-# cd dotfiles
+# git clone https://github.com/nrobinson2000/arch-base
+# cd arch-base
 # ./install.sh
 
 # DOTFILES_AGREE="true"
