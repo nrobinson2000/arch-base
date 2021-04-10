@@ -31,4 +31,7 @@ pacman -Qemq > packages/aur
 pacman -Qq > packages/all
 
 # dconf
-dconf dump / > dconf/all.conf
+dconf dump / > dconf/temp
+# depersonalize
+grep -v nrobinson dconf/temp > dconf/all.conf
+rm dconf/temp

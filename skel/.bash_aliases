@@ -41,3 +41,5 @@ pwd_clip() {
 clip() {
   $@ | xclip -selection "clipboard"
 }
+
+alias ytm='ytfzf -ml'
