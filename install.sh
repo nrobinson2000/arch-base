@@ -9,7 +9,8 @@
 # DOTFILES_AGREE="true"
 
 if [[ "$DOTFILES_AGREE" != "true" ]]; then
-    echo -e 'To confirm that you understand the risks of this script you must uncomment\nthe DOTFILES_AGREE="true" line in install.sh'
+    echo "To confirm that you understand the risks of this script you must uncomment"
+    echo 'the DOTFILES_AGREE="true" line in install.sh'
     exit
 fi
 

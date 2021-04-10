@@ -31,6 +31,13 @@ pacman -Qenq > packages/native
 pacman -Qemq > packages/aur
 pacman -Qq > packages/all
 
+# Remove custom packages from aur list
+for pkg in custom-packages/*; do
+TMP="$(mktemp)"
+grep -v "$(basename $pkg)" packages/aur > "$TMP"
+mv "$TMP" packages/aur
+done
+
 # dconf
 dconf dump / > dconf/temp
 # depersonalize
