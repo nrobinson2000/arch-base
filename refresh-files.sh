@@ -13,6 +13,7 @@ cp -r .cinnamon/configs "$SKEL/.cinnamon"
 # .config files
 cp .config/albert/albert.conf "$CONFIG/albert/albert.conf"
 cp .config/Code/User/settings.json "$CONFIG/Code/User/settings.json"
+cp .config/chromium-flags.conf "$CONFIG/chromium-flags.conf"
 
 # .config directories
 cp -r .config/autostart "$CONFIG"
