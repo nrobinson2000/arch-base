@@ -6,6 +6,9 @@
 # cd arch-base
 # ./install.sh
 
+# The multilib repo must be enabled in /etc/pacman.conf
+# After enabling run: sudo pacman -Sy
+
 # DOTFILES_AGREE="true"
 
 if [[ "$DOTFILES_AGREE" != "true" ]]; then
@@ -15,18 +18,18 @@ if [[ "$DOTFILES_AGREE" != "true" ]]; then
 fi
 
 echo "Configuring mirrorlist with reflector..."
-sudo pacman -S reflector rsync
+sudo pacman -S reflector rsync || exit
 sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
 sudo reflector --latest 20 --sort rate --country 'United States' --protocol https --save /etc/pacman.d/mirrorlist
 
 echo "Updating system..."
-sudo pacman -Syyu
+sudo pacman -Syyu || exit
 
 echo "Installing base-devel..."
-sudo pacman -S base-devel
+sudo pacman -S base-devel || exit
 
 echo "Installing native packages..."
-sudo pacman -S - < packages/native
+sudo pacman -S - < packages/native || exit
 
 echo "Installing custom packages..."
 for pkg in custom-packages/*; do pushd $pkg; makepkg -sifc; popd; done
@@ -38,7 +41,9 @@ makepkg -si
 popd
 
 echo "Installing AUR packages..."
-yay -S - < packages/aur
+yay -S - < packages/aur || exit
+
+# Don't apply any customizations unless all packages were installed sucessfully 
 
 echo "Applying customizations..."
 sudo cp -ri overlay/* /
