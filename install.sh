@@ -43,7 +43,7 @@ popd
 echo "Installing AUR packages..."
 yay -S - < packages/aur || exit
 
-# Don't apply any customizations unless all packages were installed sucessfully 
+# Don't apply any customizations unless all packages were installed successfully
 
 echo "Applying customizations..."
 sudo cp -ri overlay/* /
