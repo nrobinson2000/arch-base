@@ -31,10 +31,18 @@ pacman -Qenq > packages/native
 pacman -Qemq > packages/aur
 pacman -Qq > packages/all
 
+# Remove base-devel from native list
+BASE="$(pacman -Qqg base-devel)"
+for pkg in $BASE; do
+TMP="$(mktemp)"
+grep -vx "$pkg" packages/native > "$TMP"
+mv "$TMP" packages/native
+done
+
 # Remove custom packages from aur list
 for pkg in custom-packages/*; do
 TMP="$(mktemp)"
-grep -v "$(basename $pkg)" packages/aur > "$TMP"
+grep -vx "$(basename $pkg)" packages/aur > "$TMP"
 mv "$TMP" packages/aur
 done
 

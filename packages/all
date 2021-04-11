@@ -7,7 +7,6 @@ adobe-source-code-pro-fonts
 adwaita-icon-theme
 airspy
 albert-lite
-alsa-card-profiles
 alsa-lib
 alsa-plugins
 alsa-topology-conf
@@ -77,7 +76,6 @@ cjs
 clutter
 clutter-gst
 clutter-gtk
-cmake
 codec2
 cogl
 colord
@@ -160,14 +158,12 @@ glib2
 glibc
 glibmm
 glslang
-gmime3
 gmp
 gnome-backgrounds
 gnome-desktop
 gnome-disk-utility
 gnome-keyring
 gnome-menus
-gnome-online-accounts
 gnome-screenshot
 gnome-system-monitor
 gnome-terminal
@@ -180,7 +176,6 @@ gnuradio-iqbal
 gnuradio-osmosdr
 gnutls
 gobject-introspection-runtime
-gom
 gpgme
 gpm
 gptfdisk
@@ -189,8 +184,6 @@ graphene
 graphite
 graphviz
 grep
-grilo
-grilo-plugins
 groff
 grub
 gsettings-desktop-schemas
@@ -214,7 +207,6 @@ gtksourceview3
 gts
 guile
 gupnp
-gupnp-dlna
 gupnp-igd
 gutenprint
 gvfs
@@ -248,7 +240,6 @@ jq
 js78
 json-c
 json-glib
-jsoncpp
 kbd
 keyutils
 kmod
@@ -346,7 +337,6 @@ libcdio
 libcdio-paranoia
 libcloudproviders
 libcroco
-libcue
 libcups
 libdaemon
 libdatrie
@@ -355,7 +345,6 @@ libdbusmenu-gtk3
 libdc1394
 libdca
 libde265
-libdmapsharing
 libdrm
 libdv
 libdvbpsi
@@ -372,19 +361,15 @@ libfdk-aac
 libffi
 libfontenc
 libgcrypt
-libgdata
 libgee
 libgexiv2
 libglvnd
 libgme
 libgnomekbd
 libgpg-error
-libgrss
-libgsf
 libgtop
 libgudev
 libgusb
-libgxps
 libhandy
 libheif
 libibus
@@ -399,14 +384,12 @@ libindicator-gtk3
 libinih
 libinput
 libinstpatch
-libiptcdata
 libisoburn
 libisofs
 libjpeg-turbo
 libkate
 libkeybinder3
 libksba
-libldac
 libldap
 liblouis
 liblqr
@@ -415,7 +398,6 @@ libmad
 libmanette
 libmatroska
 libmaxminddb
-libmediaart
 libmfx
 libmicrodns
 libmicrohttpd
@@ -442,12 +424,9 @@ libnm
 libnma
 libnotify
 libnsl
-liboauth
 libofa
 libogg
 libomxil-bellagio
-libopenaptx
-libosinfo
 libp11-kit
 libpaper
 libpcap
@@ -461,8 +440,6 @@ libproxy
 libpsl
 libpulse
 libpwquality
-libquvi
-libquvi-scripts
 libraqm
 libraw
 libraw1394
@@ -484,7 +461,6 @@ libspiro
 libsrtp
 libssh
 libssh2
-libstemmer
 libtar
 libtasn1
 libteam
@@ -566,13 +542,7 @@ log4cpp
 logrotate
 lsb-release
 lsof
-lua
 lua52
-lua52-bitop
-lua52-expat
-lua52-lpeg
-lua52-luajson
-lua52-socket
 lua53
 luajit
 lvm2
@@ -642,7 +612,6 @@ openssl
 opus
 orc
 os-prober
-osinfo-db
 p11-kit
 pacman
 pacman-contrib
@@ -687,7 +656,6 @@ php-sqlite
 pi-hole-ftl
 pi-hole-server
 pinentry
-pipewire
 pixman
 pkgconf
 plank
@@ -743,18 +711,10 @@ python-webencodings
 python-xapp
 python-xlib
 python-yaml
-python2
-python2-appdirs
-python2-ordered-set
-python2-packaging
-python2-pyparsing
-python2-setuptools
-python2-six
 qemu
 qpdf
 qt5-base
 qt5-charts
-qt5-declarative
 qt5-styleplugins
 qt5-svg
 qt5-x11extras
@@ -767,7 +727,6 @@ re2
 readline
 reflector
 rest
-rhash
 rsync
 rtkit
 rtl-sdr
@@ -825,9 +784,6 @@ texinfo
 thin-provisioning-tools
 timezonemap
 tmux
-totem-pl-parser
-tracker3
-tracker3-miners
 tree
 tslib
 ttf-liberation
@@ -844,7 +800,6 @@ usbutils
 util-linux
 util-linux-libs
 v4l-utils
-vamp-plugin-sdk
 vde2
 vid.stab
 viewnior
