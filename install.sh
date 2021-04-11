@@ -18,7 +18,7 @@ if [[ "$DOTFILES_AGREE" != "true" ]]; then
 fi
 
 echo "Configuring mirrorlist with reflector..."
-sudo pacman -S reflector rsync || exit
+sudo pacman -S --noconfirm --needed reflector rsync || exit
 sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
 sudo reflector --latest 20 --sort rate --country 'United States' --protocol https --save /etc/pacman.d/mirrorlist
 
@@ -26,10 +26,10 @@ echo "Updating system..."
 sudo pacman -Syyu || exit
 
 echo "Installing base-devel..."
-sudo pacman -S base-devel || exit
+sudo pacman -S --noconfirm --needed base-devel || exit
 
 echo "Installing native packages..."
-sudo pacman -S - < packages/native || exit
+sudo pacman -S --noconfirm --needed - < packages/native || exit
 
 echo "Installing custom packages..."
 for pkg in custom-packages/*; do pushd $pkg; makepkg -sifc; popd; done
@@ -41,7 +41,7 @@ makepkg -si
 popd
 
 echo "Installing AUR packages..."
-yay -S - < packages/aur || exit
+yay -S --removemake --noconfirm --needed - < packages/aur || exit
 
 # Don't apply any customizations unless all packages were installed successfully
 

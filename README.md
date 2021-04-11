@@ -1,5 +1,5 @@
 # arch-base
-![](screenshots/latest.png)
+![](screenshots/best.png)
 
 **Settings and configuration for my Arch Linux distribution.**
 
