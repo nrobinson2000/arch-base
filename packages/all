@@ -123,7 +123,6 @@ file
 file-roller
 filesystem
 findutils
-firefox
 flac
 flex
 fluidsynth
@@ -549,7 +548,6 @@ lvm2
 lz4
 lzo
 m4
-mailcap
 make
 man-db
 mangohud
