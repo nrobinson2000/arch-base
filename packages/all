@@ -37,7 +37,6 @@ base
 bash
 bash-completion
 bc
-bind
 binutils
 bison
 bladerf
@@ -59,7 +58,6 @@ cantarell-fonts
 caribou
 cblas
 cdparanoia
-cdrtools
 ceph-libs
 cheese
 chromaprint
@@ -94,7 +92,6 @@ dconf
 dconf-editor
 desktop-file-utils
 device-mapper
-dhclient
 diffutils
 discord_arch_electron
 dmraid
@@ -396,7 +393,6 @@ liblrdf
 libmad
 libmanette
 libmatroska
-libmaxminddb
 libmfx
 libmicrodns
 libmicrohttpd
@@ -524,12 +520,10 @@ libxv
 libxxf86vm
 libyaml
 libyuv
-libzip
 licenses
 lightdm
 lightdm-settings
 lightdm-slick-greeter
-lighttpd
 lilv
 linux
 linux-api-headers
@@ -538,7 +532,6 @@ llvm-libs
 lm_sensors
 lmdb
 log4cpp
-logrotate
 lsb-release
 lsof
 lua52
@@ -581,7 +574,6 @@ nemo-share
 neofetch
 neon
 neopo-git
-net-tools
 netpbm
 nettle
 network-manager-applet
@@ -648,11 +640,6 @@ perl-timedate
 perl-try-tiny
 perl-uri
 perl-www-robotrules
-php
-php-cgi
-php-sqlite
-pi-hole-ftl
-pi-hole-server
 pinentry
 pixman
 pkgconf
@@ -691,7 +678,6 @@ python-packaging
 python-pam
 python-pexpect
 python-pillow
-python-ply
 python-psutil
 python-ptyprocess
 python-pycups
