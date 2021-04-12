@@ -45,6 +45,7 @@ yay -S --removemake --noconfirm --needed - < packages/aur || exit
 
 echo "Cleaning up..."
 sudo pacman -Rcns --noconfirm $(pacman -Qqdtt)
+yay -Sc --noconfirm
 
 # Don't apply any customizations unless all packages were installed successfully
 
