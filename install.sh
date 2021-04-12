@@ -6,9 +6,6 @@
 # cd arch-base
 # ./install.sh
 
-# The multilib repo must be enabled in /etc/pacman.conf
-# After enabling run: sudo pacman -Sy
-
 # DOTFILES_AGREE="true"
 
 if [[ "$DOTFILES_AGREE" != "true" ]]; then
