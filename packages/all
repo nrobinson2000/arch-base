@@ -15,7 +15,6 @@ aom
 archlinux-keyring
 argon2
 arp-scan
-asciicast2gif
 asciinema
 at-spi2-atk
 at-spi2-core
@@ -121,7 +120,6 @@ fribidi
 fuse-common
 fuse3
 fzf
-gamemode
 gavl
 gawk
 gc
@@ -135,7 +133,6 @@ gegl
 gettext
 ghostscript
 giflib
-gifsicle
 gimp
 git
 gitkraken
@@ -392,7 +389,6 @@ liburing
 libusb
 libusbmuxd
 libutempter
-libuv
 libva
 libva-vdpau-driver-chromium
 libvdpau
@@ -486,14 +482,12 @@ nemo-python
 nemo-share
 neofetch
 neon
-neopo-git
 netpbm
 nettle
 network-manager-applet
 networkmanager
 nm-connection-editor
 nmap
-nodejs
 npth
 nspr
 nss
@@ -528,7 +522,6 @@ pciutils
 pcre
 pcre2
 perl
-perl-archive-zip
 perl-clone
 perl-encode-locale
 perl-error
