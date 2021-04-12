@@ -43,11 +43,14 @@ popd
 echo "Installing AUR packages..."
 yay -S --removemake --noconfirm --needed - < packages/aur || exit
 
+echo "Cleaning up..."
+sudo pacman -Rcns --noconfirm $(pacman -Qqdtt)
+
 # Don't apply any customizations unless all packages were installed successfully
 
 echo "Applying customizations..."
 sudo cp -r overlay/* /
-cp -r `find skel -maxdepth 1 | tail +2` "$HOME"
+cp -r $(find skel -maxdepth 1 | tail +2) "$HOME"
 
 echo "Enabling services..."
 cat systemd/services | xargs sudo systemctl enable
