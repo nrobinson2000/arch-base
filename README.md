@@ -1,23 +1,13 @@
 # arch-base
 ![](screenshots/debloated.png)
 
-**Settings and configuration for my Arch Linux distribution.**
-
-This repository is a post-installation setup script for Arch Linux that installs and configures my preferred pacakges to create a sleek and approachable desktop experience.
-
-## Overview
-
-```
-DE: Cinnamon 4.8.6
-WM: Mutter (Muffin)
-WM Theme: Adapta-Nokto (Adapta-Nokto-Eta)
-Theme: Adapta-Nokto-Eta [GTK2/3]
-Icons: Papirus-Dark [GTK2/3]
-Terminal: gnome-terminal
-```
+This repository is a post-installation setup script for Arch Linux that installs and configures my preferred packages to create a sleek and approachable desktop experience.
 ___
 
+
 ## Installation
+
+On a newly installed Arch Linux environment clone this repository:
 
 ```bash
 $ sudo pacman -S git
@@ -34,7 +24,20 @@ $ ./install.sh
 ```
 
 The script can take around 15-20 minutes to complete. After the script finishes, reboot your system and you should be presented with a graphical login window.
+___
 
-## TODO:
+## Overview
+
+```
+DE: Cinnamon 4.8.6
+WM: Mutter (Muffin)
+WM Theme: Adapta-Nokto (Adapta-Nokto-Eta)
+Theme: Adapta-Nokto-Eta [GTK2/3]
+Icons: Papirus-Dark [GTK2/3]
+Terminal: gnome-terminal
+```
+___
+
+## TODO
 - Make README more eyecatching
 - Document shortcuts and tips
