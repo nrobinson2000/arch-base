@@ -1,6 +1,5 @@
 adapta-gtk-theme
 alsa-utils
-archiso
 arp-scan
 asciinema
 baobab
@@ -11,7 +10,6 @@ chromium
 cinnamon
 cups
 dconf-editor
-edk2-ovmf
 efibootmgr
 fzf
 gamemode
@@ -22,16 +20,12 @@ gnome-keyring
 gnome-screenshot
 gnome-system-monitor
 gnome-terminal
-gqrx
 grub
 gutenprint
 htop
 hunspell-en_us
 intel-ucode
 kvantum-qt5
-lib32-fakeroot
-lib32-gcc-libs
-lib32-libltdl
 linux
 linux-firmware
 man-db
@@ -42,6 +36,7 @@ nemo-preview
 nemo-python
 nemo-share
 neofetch
+networkmanager
 nmap
 nvidia
 nvidia-settings
@@ -50,16 +45,13 @@ pacman-contrib
 papirus-icon-theme
 parcellite
 plank
-qemu
 qt5ct
 r
 r8168
 reflector
 rsync
 rust
-rust-docs
 screen
-steam
 system-config-printer
 tmux
 tree
