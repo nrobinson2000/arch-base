@@ -23,7 +23,7 @@ sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
 sudo reflector --latest 20 --sort rate --country 'United States' --protocol https --save /etc/pacman.d/mirrorlist
 
 echo "Updating system..."
-sudo pacman -Syyu || exit
+sudo pacman -Syyu --noconfirm || exit
 
 echo "Installing base-devel..."
 sudo pacman -S --noconfirm --needed base-devel || exit
@@ -32,12 +32,12 @@ echo "Installing native packages..."
 sudo pacman -S --noconfirm --needed - < packages/native || exit
 
 echo "Installing custom packages..."
-for pkg in custom-packages/*; do pushd $pkg; makepkg -sifc; popd; done
+for pkg in custom-packages/*; do pushd $pkg; makepkg -sifc --noconfirm; popd; done
 
 echo "Installing yay..."
 git clone https://aur.archlinux.org/yay-bin.git
 pushd yay-bin
-makepkg -si
+makepkg -sifc --noconfirm
 popd
 
 echo "Installing AUR packages..."
@@ -46,8 +46,8 @@ yay -S --removemake --noconfirm --needed - < packages/aur || exit
 # Don't apply any customizations unless all packages were installed successfully
 
 echo "Applying customizations..."
-sudo cp -ri overlay/* /
-cp -ri `find skel -maxdepth 1 | tail +2` "$HOME"
+sudo cp -r overlay/* /
+cp -r `find skel -maxdepth 1 | tail +2` "$HOME"
 
 echo "Enabling services..."
 cat systemd/services | xargs sudo systemctl enable
